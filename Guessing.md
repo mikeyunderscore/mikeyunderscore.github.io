@@ -7,8 +7,8 @@ graph TD
     E --> B
     D -- Yes --> F[You Win!]
     D -- No --> G[Is Guess Too High?]
-    G -- Yes --> H[Try a Lower Number]
-    G -- No --> I[Try a Higher Number]
+    G -- Yes --> H[Enter a Lower Number]
+    G -- No --> I[Enter a Higher Number]
     H --> B
     I --> B
     F --> J[Play Again?]
